@@ -247,6 +247,11 @@ footer nav a {
     width: 125px;
 }
 
+.learn-more:hover {
+    background-color: black;
+    color: white;
+}
+
 .tile p {
     margin-bottom: 4%;
 }
