@@ -98,14 +98,14 @@ header nav a {
 
 .jumbo {
     width: 100%;
-    margin: 3% 0;
+    margin: 0;
 }
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin: 2%;
     border-bottom: 1px dashed black;
 }
 
@@ -205,4 +205,24 @@ footer nav a {
 }
 #box10 {
     background-color:dodgerblue;
+}
+
+.about {
+
+    margin: 0 auto;
+    padding: 2%;
+    border-bottom: 1px black dashed;
+}
+
+.learn-tiles {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tile { 
+    width: 40%
+}
+
+.tile img {
+    width: 100%;
 }
