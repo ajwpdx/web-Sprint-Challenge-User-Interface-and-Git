@@ -259,3 +259,36 @@ footer nav a {
 .work-together {
     margin: 3%;
 }
+
+.contact-form form {
+    margin: 0 auto 5%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-form form label {
+    padding: 1rem 0;
+}
+
+.contact-form #name {
+    width: 50%;
+}
+
+.contact-form #email {
+    width: 50%;
+}
+
+.contact-form #country {
+    width: 50%;
+}
+
+.contact-form #subject {
+    width: 50%;
+}
+
+.contact-form #submit {
+    width: 25%;
+}
