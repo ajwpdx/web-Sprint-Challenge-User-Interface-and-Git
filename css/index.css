@@ -215,7 +215,7 @@ footer nav a {
 
 .learn-tiles {
     width: 95%;
-    margin: 3% auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -223,14 +223,17 @@ footer nav a {
 }
 
 .tile { 
-    width: 45%;
+    width: 48%;
     border-bottom: 1px black dashed;
     display: flex;
     flex-direction: column;
+    margin: 3% 0;
 }
 
 .tile img {
     width: 100%;
+    margin-bottom: 4%;
+
 }
 
 .learn-more {
@@ -239,12 +242,15 @@ footer nav a {
     border: 2px solid black;
     border-radius: 10px;
     padding: 10px;
-    margin: 1% 0;
+    margin-bottom: 4%;
     text-align: center;
-    width: 150px;
+    width: 125px;
 }
 
+.tile p {
+    margin-bottom: 4%;
+}
 
 .work-together {
-    width: 95%;
+    margin: 3%;
 }
